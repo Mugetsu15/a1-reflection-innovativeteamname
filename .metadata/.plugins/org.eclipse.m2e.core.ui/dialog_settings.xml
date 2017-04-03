@@ -2,11 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="edu.hm.swa.innovative"/>
 			<item value="xd"/>
 		</list>
 		<list key="name">
+			<item value="reflection"/>
 		</list>
 		<list key="artifactId">
+			<item value="reflection"/>
 			<item value="xd"/>
 		</list>
 		<list key="projectNameTemplate">

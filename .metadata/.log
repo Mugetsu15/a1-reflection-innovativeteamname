@@ -152,3 +152,22 @@ Contains: The project description file (.project) for 'RemoteSystemsTempFiles' i
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2017-03-27 18:12:37.319
 !MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-27 18:22:13.580
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-27 18:22:13.589
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-03-27 18:24:18.266
+!MESSAGE An internal error occurred during: "Updating Git status for repository a1-reflection-innovativeteamname".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.getRepository(IndexDiffCacheEntry.java:184)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$1(IndexDiffCacheEntry.java:179)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$5.updateIndexDiff(IndexDiffCacheEntry.java:524)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffUpdateJob.run(IndexDiffUpdateJob.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-27 18:24:19.512
+!MESSAGE The workspace will exit with unsaved changes in this session.
