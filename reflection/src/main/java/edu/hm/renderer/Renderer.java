@@ -55,7 +55,7 @@ public class Renderer {
                 
                 // check on with()
                 //if (field.getType().isArray()) {
-                if(((RenderMe) anno).with().equals("edu.hm.renderer.ArrayRenderer"))  {
+                if (((RenderMe) anno).with().equals("renderer.ArrayRenderer"))  {
                     ArrayRenderer ar = new ArrayRenderer(object, field);
                     String[] data = ar.render();
                     

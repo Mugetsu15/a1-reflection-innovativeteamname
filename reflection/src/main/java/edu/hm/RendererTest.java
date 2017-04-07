@@ -23,8 +23,6 @@ public class RendererTest {
         renderer = new Renderer(toRender);
     }
     
-    /** TODO: https://github.com/junit-team/junit4/wiki/parameterized-tests and EmmaEccl (Coverage) */
-    
     /** Test on rendering.
      * 
      * @throws Exception Exception

@@ -25,12 +25,12 @@ public class SomeClass {
             this.foo = foo;
     }
     
-    /** Getter for foo.
+    /** Getter for foo (not needed).
      * @return foo
      */
-    int getInt()  {
-        return foo;
-    }
+    //int getInt()  {
+    //    return foo;
+    //}
     
     /** Getter for date.
      * @return date
