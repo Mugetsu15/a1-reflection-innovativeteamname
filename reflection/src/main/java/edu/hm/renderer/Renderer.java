@@ -71,7 +71,7 @@ public class Renderer {
             }
         }
         output = output.substring(0, output.length() - 1); // remove \n
-        System.out.println(output);
+        System.out.println(output + "\n");
         return output;
     }
 }

@@ -9,6 +9,8 @@ import edu.hm.renderer.RenderMe;
 
 public class SomeParameterizedClass {
     @RenderMe private int foo;
+    private final int magicconstant = 5;
+    @RenderMe(with = "renderer.ArrayRenderer") private int[] arr1 = {1, 2, magicconstant};
     
     /**
      * Constructor.
